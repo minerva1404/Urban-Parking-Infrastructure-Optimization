@@ -16,9 +16,9 @@ import os
 # --------------------------
 # Paths
 # --------------------------
-SILVER_INPUT_PATH = r"C:\Users\Angel\OneDrive\Desktop\Urban-Parking-Infrastructure-Optimization\silver"
-GOLD_OUTPUT_PATH = r"C:\Users\Angel\OneDrive\Desktop\Urban-Parking-Infrastructure-Optimization\gold\data"
-CHECKPOINT_PATH = r"C:\Users\Angel\OneDrive\Desktop\Urban-Parking-Infrastructure-Optimization\gold\checkpoint"
+SILVER_INPUT_PATH = r"C:\Urban-Parking-Infrastructure-Optimization\silver"
+GOLD_OUTPUT_PATH = r"C:\Urban-Parking-Infrastructure-Optimization\gold\data"
+CHECKPOINT_PATH = r"C:\Urban-Parking-Infrastructure-Optimization\gold\checkpoint"
 
 os.makedirs(GOLD_OUTPUT_PATH, exist_ok=True)
 os.makedirs(CHECKPOINT_PATH, exist_ok=True)
