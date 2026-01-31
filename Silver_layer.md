@@ -15,8 +15,8 @@ from pyspark.sql.types import StructType, StructField, StringType, DoubleType
 # --------------------------
 # 🔹 Paths
 # --------------------------
-SILVER_OUTPUT_PATH = r"C:\Users\Angel\OneDrive\Desktop\Urban-Parking-Infrastructure-Optimization\silver"
-SILVER_CHECKPOINT_PATH = r"C:\Users\Angel\OneDrive\Desktop\Urban-Parking-Infrastructure-Optimization\silver\silver_checkpoint"
+SILVER_OUTPUT_PATH = r"C:\Urban-Parking-Infrastructure-Optimization\silver"
+SILVER_CHECKPOINT_PATH = r"C:\Urban-Parking-Infrastructure-Optimization\silver\silver_checkpoint"
 
 # --------------------------
 # 🔹 Spark Session
